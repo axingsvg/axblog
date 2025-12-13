@@ -1,7 +1,7 @@
 ---
 title: IOS App Store 免越狱下载旧版应用
 published: 2025-12-06
-description: 无需越狱，应用自由升降级。
+description: 无需越狱，应用历史版本任意下载。
 tags: [IOS]
 category: 绿色软件
 draft: false
@@ -9,7 +9,7 @@ draft: false
 
 # 软件介绍
 
-无需越狱，应用任意历史版本一键下载，自由降级或安装经典版本，彻底告别强制更新，完全掌控你的应用选择权。
+无需越狱，应用历史版本任意下载，完全掌控你的应用选择权。
 
 # 软件截图
 
