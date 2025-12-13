@@ -1,8 +1,8 @@
 ---
 title: 文档差异在线检查 Compare2Word
-published: 2025-12-10
+published: 2025-12-01
 description: 文档差异对比检查，快速，精准！
-tags: [文档]
+tags: [检查]
 category: 值得一看
 draft: false
 ---
