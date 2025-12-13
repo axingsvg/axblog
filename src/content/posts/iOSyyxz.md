@@ -31,7 +31,7 @@ draft: false
 
 32位：https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe
 
-B站视频教程：https://www.bilibili.com/video/BV1VQ4y1M77t/?vd_source=d4b4b1cf5f15f21e52d020baef926c43
+视频教程：https://www.bilibili.com/video/BV1VQ4y1M77t/?vd_source=d4b4b1cf5f15f21e52d020baef926c43
 
 # 下载地址
 
