@@ -16,9 +16,9 @@ draft: false
 
 # 准备工作
 
-[点我下载工具](https://pan.xunlei.com/s/VP0t0ql--lBfEwFOmSSI42N_A1?pwd=a4qu#)（记得先保存以免链接失效），然后下载[爱思助手](https://www.i4.cn/)。
+[点我下载工具](https://pan.xunlei.com/s/VP0t0ql--lBfEwFOmSSI42N_A1?pwd=a4qu#)（先保存以免链接失效），然后下载[爱思助手](https://www.i4.cn/)。
 
-首先安装 iTunes、爱思助手，再把 iOS 旧版应用下载解压到桌面。
+安装 iTunes、爱思助手，再把 iOS 旧版应用下载解压到桌面。
 
 ![ ](https://tc.axicb.top/v2/qZqfVCc.webp)
 
