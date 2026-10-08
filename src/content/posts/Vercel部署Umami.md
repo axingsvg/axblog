@@ -1,5 +1,5 @@
 ---
-title: Vercel + Neon 部署 Umami
+title: Vercel 部署 Umami
 published: 2026-01-05
 description: 统计工具那么多，我选了 Umami，因为简单。
 tags: [Umami]
@@ -24,15 +24,15 @@ draft: false
 
 ![](https://img.ax6b.cn/file/1791425626564_202.webp)
 
-点击 Import single project。
+导入 app 项目。
 
 ![](https://img.ax6b.cn/file/1791425307277_203.webp)
 
-点击 Create Project。
+创建项目。
 
 ![](https://img.ax6b.cn/file/1791425868827_204.webp)
 
-点击 Deploy。
+部署项目。
 
 ![](https://img.ax6b.cn/file/1791426016171_205.webp)
 
