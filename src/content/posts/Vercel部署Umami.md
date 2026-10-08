@@ -10,17 +10,17 @@ draft: false
 
 # 前言
 
-想装个统计，Google Analytics 太重，Matomo 麻烦，Plausible 要钱，都不省心。
+想着装个统计系统，Google Analytics 太重，Matomo 麻烦，Plausible 要钱，都不省心。
 
 偶然发现 Umami，开源、隐私友好、界面清爽，部署到 Vercel，数据库用 Neon，一分钱不用花。
 
 # 创建项目
 
-登录 GitHub 打开 [Umami](https://github.com/umami-software/umami)，Fork 到仓库。
+打开 [Umami](https://github.com/umami-software/umami)，Fork 到仓库。
 
 ![](https://img.ax6b.cn/file/1791425448619_201.webp)
 
-通过 GitHub 登录 Vercel，点击 Add New -> Project，导入 Fork 的仓库。
+使用 GitHub 登录 Vercel，导入 Fork 的仓库。
 
 ![](https://img.ax6b.cn/file/1791425626564_202.webp)
 
