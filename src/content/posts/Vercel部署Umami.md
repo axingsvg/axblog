@@ -28,7 +28,7 @@ draft: false
 
 ![](https://img.ax6b.cn/file/1791425307277_203.webp)
 
-接着点击 `Create Project` 创建，然后点击 `Deploy` 部署项目。
+接着点击 `Create Project` 创建项目，然后点击 `Deploy` 部署项目。
 
 ![](https://img.ax6b.cn/file/1791426016171_205.webp)
 
