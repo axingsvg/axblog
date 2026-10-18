@@ -1,6 +1,6 @@
 ---
 title: Vercel 部署 Umami
-published: 2026-01-05
+published: 2026-10-05
 description: 统计工具那么多，我选了 Umami，因为简单。
 tags: [Umami]
 category: 教程
@@ -14,27 +14,29 @@ draft: false
 
 开源、自托管、数据在自己手里，后台界面也干净，这就是我想要的东西，直接部署到 Vercel，免费还省事。
 
-# 部署项目
+# 克隆项目
 
-打开 [Umami](https://github.com/umami-software/umami)，点击 `Fork`，克隆项目到 GitHub 仓库。
+打开 [Umami](https://github.com/umami-software/umami)，点击 `Fork`，克隆项目到自己的仓库。
 
 ![](https://img.ax6b.cn/file/1791425448619_201.webp)
 
-用 GitHub 登录 Vercel，找到 `Add New` - `Project`，在已 Fork 仓库旁边，点击  `Import` 导入仓库。
+# 部署项目
+
+使用 GitHub 登录 Vercel，找到 `Add New` - `Project`，点击 `Import` 导入仓库。
 
 ![](https://img.ax6b.cn/file/1791425626564_202.webp)
 
-检测到目录中含有多个应用程序，只需要 app 就行，点击 `Import single project` 导入程序。
+目录中被检测含有多个应用程序，点击 `Import single project` 导入单个程序。
 
 ![](https://img.ax6b.cn/file/1791425307277_203.webp)
 
-接着点击 `Create Project` 创建项目，然后点击 `Deploy` 部署项目。
+接着点击 `Create Project` 创建项目，然后点击 `Deploy` 开始部署。
 
 ![](https://img.ax6b.cn/file/1791426016171_205.webp)
 
-这时候部署会失败，这是因为还没有数据库，Umami 启动的时候连不上 PostgreSQL。
+部署失败是正常的，因为还没数据库，Umami 启动的时候连不上 PostgreSQL。
 
-# 创建数据库
+# 连接数据库
 
 回到 Vercel 首页，在菜单栏找到 `Storage`，创建 `Neon`。
 
@@ -44,7 +46,7 @@ draft: false
 
 ![](https://img.ax6b.cn/file/1791427380200_207.webp)
 
-创建后进入数据库，点击 `Connect to Project`，然后选中项目，再点击 `Connect Project` 连接项目。
+创建并进入数据库，点击 `Connect to Project`，然后选中项目，再点击 `Connect Project` 连接项目。
 
 ![](https://img.ax6b.cn/file/1791428141784_208.webp)
 
