@@ -16,64 +16,56 @@ draft: false
 
 # 克隆项目
 
-打开 [Umami](https://github.com/umami-software/umami)，点击 `Fork`，克隆项目到自己的仓库。
+打开 [Umami](https://github.com/umami-software/umami)，点击 `Fork`，克隆项目到 GitHub 仓库。
 
-![](https://img.ax6b.cn/file/1791425448619_201.webp)
+# 导入项目
 
-# 部署项目
+使用 GitHub 账号登录 Vercel，在首页菜单栏找到 `Projects`，点击 `Add New` - `Project`，从列表里找到刚克隆的仓库，点击 `Import` 导入。
 
-使用 GitHub 登录 Vercel，找到 `Add New` - `Project`，点击 `Import` 导入仓库。
+![](https://img.ax6b.cn/file/1792661680067_1.webp)
 
-![](https://img.ax6b.cn/file/1791425626564_202.webp)
-
-目录中被检测含有多个应用程序，点击 `Import single project` 导入单个程序。
+目录中被检测含有多个应用程序，导入单个程序。
 
 ![](https://img.ax6b.cn/file/1791425307277_203.webp)
 
-接着点击 `Create Project` 创建项目，然后点击 `Deploy` 开始部署。
+接着点击 `Create Project`，然后开始部署。
 
 ![](https://img.ax6b.cn/file/1791426016171_205.webp)
 
-部署失败是正常的，因为还没数据库，Umami 启动的时候连不上 PostgreSQL。
+马上会部署失败，因为还没数据库，Umami 启动的时候连不上 PostgreSQL。
 
 # 连接数据库
 
-回到 Vercel 首页，在菜单栏找到 `Storage`，创建 `Neon`。
+在首页菜单栏找到 `Storage`，创建 `Neon`。
 
 ![](https://img.ax6b.cn/file/1791426501878_206.webp)
 
-地区推荐选新加坡，名称随意。
+地区选新加坡，名称随意。
 
 ![](https://img.ax6b.cn/file/1791427380200_207.webp)
 
-创建并进入数据库，点击 `Connect to Project`，然后选中项目，再点击 `Connect Project` 连接项目。
+进入数据库，点击 `Connect to Project`，选中项目，再点击 `Connect Project`。
 
-![](https://img.ax6b.cn/file/1791428141784_208.webp)
-
-Vercel 会自动把所需环境变量注入项目，不需要再手动配置任何东西。
+![](https://img.ax6b.cn/file/1792663362132_8.webp)
 
 # 重新部署
 
-数据库连上了，之前部署失败了，得重新跑一次。
+数据库连上了，得重新跑一次才会生效。
 
-回到 Vercel 首页，在菜单栏找到 `Deployments`，点击已失败的部署记录，然后点击 `Redeploy`，再点击 `Redeploy`。
+在首页菜单栏找到 `Deployments`，点击已失败的部署记录，点击 `Redeploy`。
 
-![](https://img.ax6b.cn/file/1791791814558_8.webp)
+![](https://img.ax6b.cn/file/1792662966809_7.webp)
 
-# 登录后台
+等重新部署完成，访问分配的域名，即可进入登录后台页面，默认账号 `admin`，默认密码 `ummai`。
 
-访问 Vercel 给你分配的域名，会看到 Umami 登录页面，默认账号 `admin`，默认密码 `ummai`。
-
-第一件事改密码，默认密码谁都知道，点击右下角 `Settings` - `Profile` 进行更改。
+上去第一件事改密码，默认密码谁都知道，点击右下角 `Settings` - `Profile` 进行更改。
 
 # 自定义域名
 
-Vercel 分配的域名又长又丑，自己如果有域名的话可以绑上去。
+默认分配的域名又长又丑，自己如果有域名的话可以绑上去。
 
-进入项目，点击 `Domains` - `Add Existing`，输入域名并按提示添加 DNS 记录，验证完成后，会自动帮你配好 HTTPS。
+在项目菜单栏找到 `Domains`，点击 `Add Existing`，输入自由域名，按提示添加 DNS 记录。
 
 # 结尾
-
-Umami 跑在 Vercel，数据库在 Neon 上，两个都免费，不用管服务器，不用管证书。
 
 用了几个月，最直观的感受是后台加载快，数据一目了然，不像 Google Analytics 那样找个页面要翻三层菜单。
