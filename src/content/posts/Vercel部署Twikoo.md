@@ -32,7 +32,7 @@ Twikoo 用 MongoDB 存评论数据，打开 [MongoDB Atlas](https://www.mongodb.
 
 ![](https://img.ax6b.cn/file/1792483742131_3.webp)
 
-## 获取数据库连接字符串
+## 获取连接字符串
 
 在首页菜单栏找到 `DATABASE` - `Clusters`，点击已创建集群旁边 `Connect`，选 `Drivers`。
 
