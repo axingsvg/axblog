@@ -14,7 +14,7 @@ draft: false
 
 统计已经跑在 Vercel 上了，Twikoo 也一并扔上去，数据库用 MongoDB Atlas，一分钱不用花。
 
-# 创建 MongoDB 数据库
+# 创建数据库
 
 Twikoo 用 MongoDB 存评论数据，打开 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) 注册一个账号。
 
