@@ -28,7 +28,7 @@ Twikoo 用 MongoDB 存评论数据，打开 [MongoDB Atlas](https://www.mongodb.
 
 ![](https://img.ax6b.cn/file/1792482802917_2.webp)
 
-接着往下看，添加一条 `0.0.0.0/0`，允许所有 IP 连接，避免 Vercel 无法正常连接。
+接着往下看，添加一条 `0.0.0.0/0`，允许所有 IP 连接，确保 Vercel 可以正常连接。
 
 ![](https://img.ax6b.cn/file/1792483742131_3.webp)
 
@@ -68,7 +68,7 @@ Key 添加 `MONGODB_URI`，Value 填入数据库连接字符串。
 
 等重新部署完成，访问分配的域名，前台显示云函数运行正常，说明成功了。
 
-# 绑定自定义域名
+## 绑定自定义域名
 
 在项目菜单栏找到 `Domains`，点击 `Add Existing`。
 
